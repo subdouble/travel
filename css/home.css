@@ -1,0 +1,325 @@
+/*broadcast start*/
+
+.main-cont{
+	padding-top: 40px;
+}
+
+.broadcast{
+	max-width: 100%;
+	width: 1773px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.broadcast-in{
+	margin: 0 auto;
+	background: transparent;
+	border: 4px solid #fff;
+	position: relative;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+.broadcast-con{
+	overflow: hidden;
+	height: 512px;
+	position: relative;
+	max-height: 2000px;
+	transition: all 1s ease;
+	box-sizing: border-box;
+}
+
+.broad-list .item{
+	width: 1766.33px;
+	float: left;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.broad-list .item-img img{
+	width: 1765px;
+	height: 512px;
+	max-width: 100%;
+}
+
+.broad-list .item-text{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	padding: 10px;
+	color: #fff;
+}
+
+.broad-list .item-title{
+	font-size: 18px;
+}
+
+.broad-list .item-info{
+	font-size: 12px;
+}
+
+.broad-circle-box{
+	position: absolute;
+	bottom: -35px;
+	width: 100%;
+	text-align: center;
+}
+
+.broad-circle{
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.broad-circle a{
+	display: block;
+	width: 8px;
+	height: 8px;
+	background: rgba(0,0,0,0.5);
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	text-indent: -9999px;
+}
+
+.broad-circle .broad-active{
+	background: rgba(0,0,0,0.9);
+	cursor: default;
+}
+/*broadcast end*/
+
+
+
+/*content1 start*/
+.content1{
+	overflow: hidden;
+}
+
+.content1-in{
+	max-width: 1024px;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content1-con{
+	padding: 0 40px;
+}
+
+.content1-con .item{
+	width: 25%;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	max-width: 100%;
+	min-height: 1px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.content1-con .item-in{
+	border-left: 1px dashed #dd9933;
+	transition: all 0.3s ease;
+}
+
+.content1-con .item-img{
+	text-align: center;
+}
+
+.content1-con .item-link{
+	display: inline-block;
+	width: 3.15em;
+	height: 3.15em;
+	line-height: 3.15em;
+	border-radius: 50%;
+	background: transparent;
+	color: #DD9933;
+	transition: all .3s ease;
+}
+
+.content1-con .iconfont{
+	font-size: 2em;
+	font-style: normal;
+}
+
+.content1-con .item-link:hover{
+	background: #DD9933;
+	color: #fff;
+}
+
+.content1-con .item-text{
+	line-height: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	text-align: center;
+	color: #696969;
+}
+
+/*content1 end*/
+
+
+
+/*content2 start*/
+
+.content2{
+	padding: 20px 30px 0 30px;
+	overflow: hidden;
+}
+
+.content2-in{
+	width: auto;
+}
+
+.content2-con{
+	padding: 48px 40px;
+	text-align: center;
+}
+
+.content2-con .text{
+	color: #696969;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+}
+
+/*content2 end*/
+
+
+
+/*content3 start*/
+
+.content3{
+	overflow: hidden;
+}
+
+.content3-in{
+	max-width: 1200px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.content3-con{
+	padding: 0 40px;
+}
+
+.content3-con .item{
+	width: 33.333333333333333%;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	max-width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+.content3-con .item-link{
+	display: block;
+	position: relative;
+	font-size: 0;
+}
+
+.content3-con .item-link img{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.content3-con .mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+	background: rgba(221,153,51,0.8);
+	opacity: 0;
+	transition: all .2s ease;
+}
+
+.content3-con .item:hover .mask{
+	opacity: 1;
+}
+
+
+/*content3 end*/
+
+
+
+/*content4 start*/
+
+.content4{
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.content4-in{
+	width: auto;
+}
+
+.content4-con{
+	padding: 0 40px;
+	font-size: 0;
+	text-align: center;
+}
+
+.content4-con img{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+
+/*content4 end*/
+
+
+
+
+
+
+/*to-top start*/
+
+.to-top{
+	position: fixed;
+	right: 15px;
+	bottom: 25px;
+	z-index: 999;
+	width: 35px;
+	height: 35px;
+	background: transparent;
+	text-align: center;
+}
+
+.to-top-link{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.to-top .iconfont{
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 35px;
+	color: #DD9933;
+}
+
+
+
+
+/*to-top end*/
+
+
+
+
+
+
+

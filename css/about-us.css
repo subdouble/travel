@@ -1,0 +1,55 @@
+.main-cont{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.brand-title{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.brand-title .title{
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	color: #DD9933;
+	text-align: center;
+}
+
+.brand-info{
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.info-left{
+	width: 50%;
+	float: left;
+	max-width: 100%;
+	padding-right: 23px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	line-height: 1.3em;
+}
+
+.info-left .text{
+	font-size: 14px;
+	color: #696969;
+}
+
+.info-right{
+	width: 50%;
+	max-width: 100%;
+	float: left;
+	font-size: 0;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 7px;
+	padding-left: 19px;
+}
+
+.info-right img{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}

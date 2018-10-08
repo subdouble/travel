@@ -1,0 +1,213 @@
+.main-cont{
+	padding-top: 20px;
+}
+
+.contact-top-img{
+	overflow: hidden;
+	height: 140px;
+	min-height: 140px;
+}
+
+.contact-top-img img{
+	width: 100%;
+}
+
+.contact-title{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.contact-title .title{
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	color: #DD9933;
+	text-align: center;
+}
+
+.contact-info{
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 40px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.cont-left{
+	float: left;
+	width: 50%;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.cont-left .item{
+	margin-left: 40px;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #515151;
+}
+
+.cont-left .big-title span{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.cont-left .sub-title span{
+	font-weight: 700;
+}
+
+.cont-right{
+	float: left;
+	width: 50%;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.cont-right-in{
+	border: 1px solid #DD9933;
+}
+
+.cont-right-con{
+	margin-top: 70px;
+	padding-left: 60px;
+}
+
+.cont-right .prompt-info{
+	font-size: 12px;
+	color: #666;
+	padding-bottom: 20px;
+}
+
+.cont-right .per-info-in .info{
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.cont-right label{
+	position: absolute;
+	top: 0;
+	font-size: 14px;
+	color: rgb(41, 41, 41);
+	line-height: 24px;
+	display: block;
+	margin-left: 5px;
+}
+
+.cont-right label em{
+	font-size: 10px;
+	color: #72736f;
+	margin-left: -4px;
+}
+
+.cont-right .per-info .info input{
+	width: 100%;
+	color: rgb(237, 157, 29);
+	height: 24px;
+	font-size: 14px;
+	line-height: 1;
+	border-radius: 4px;
+	border: 1px solid #e1e1e1;
+	background: rgba(252, 252, 252, 1);
+	padding: 2px;
+	min-width: 10px;
+	box-sizing: border-box;
+}
+
+.cont-right .per-info .info input:focus+label{
+	opacity: .5;
+}
+
+.cont-right .per-info .info textarea{
+	width: 100%;
+	color: rgb(237, 157, 29);
+	font-size: 14px;
+	line-height: 1.4;
+	border-radius: 4px;
+	border: 1px solid #e1e1e1;
+	background: rgba(252, 252, 252, 1);
+	padding: 2px;
+	margin-bottom: 3px;
+	min-width: 10px;
+	box-sizing: border-box;
+}
+
+.cont-right .per-info .info textarea:focus+label{
+	opacity: .5;
+}
+
+.cont-right .submit-info{
+	margin: 10px 0;
+}
+
+.cont-right .submit-info input{
+	font-size: 14px;
+	line-height: 14px;
+	color: #f5f3f0;
+	padding: 6px 10px;
+	background: #e89f17;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	outline: none;
+}
+
+.ologo{
+	overflow: hidden;
+}
+
+.ologo-left, .ologo-right{
+	float: left;
+	width: 50%;
+	max-width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.ologo img{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.cont-mtd{
+	padding-top: 120px;
+	padding-bottom: 121px;
+	overflow: hidden;
+	background: #f4f4f4;
+}
+
+.mtd-con{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+.mtd-con .item{
+	float: left;
+	width: 16.66666666666%;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	text-align: center;
+}
+
+.mtd-con .item-link{
+	display: inline-block;
+	border-radius: 50%;
+	width: 3.15em;
+	height: 3.15em;
+	line-height: 3.15em;
+	background: #606060;
+	border: 2px solid transparent;
+}
+
+.mtd-con .item-link .iconfont{
+	color: #fff;
+	font-size: 2em;
+	font-style: normal;
+}

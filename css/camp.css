@@ -1,0 +1,85 @@
+.main-cont{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.camp-title{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.camp-title .title{
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	color: #DD9933;
+	text-align: center;
+}
+
+.camp-info{
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.camp-info .item{
+	float: left;
+	position: relative;
+	width: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	margin-bottom: 4px;
+	padding-right: 4px;
+}
+
+.camp-info .item .mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: calc(100% - 4px);
+	background: rgba(0,0,0,.2);
+}
+
+.camp-info .item-link{
+	width: 100%;
+	transition: all 0.3s ease 0s;
+	padding-top: 69px;
+	padding-bottom: 96px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.camp-info .item1 .item-link{
+	background-image: url(../img/camp-1.jpg);
+}
+
+.camp-info .item2 .item-link{
+	background-image: url(../img/camp-2.jpg);
+}
+
+.camp-info .item3 .item-link{
+	background-image: url(../img/camp-3.jpg);
+}
+
+.camp-info .item4 .item-link{
+	background-image: url(../img/camp-4.jpg);
+}
+
+
+.camp-info .item-link a{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	padding: 8px 32px;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: all .2s ease-in-out;
+}
+
+.camp-info .item-link a:hover{
+	background: rgb(221, 153, 51);
+	border-color: rgb(221, 153, 51);
+}
